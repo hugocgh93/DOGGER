@@ -3,29 +3,59 @@ body {
 }
 
 header {
+    background-color: #f8f9fa;
+
+}
+
+.dogger {
+    font-size: 2em;
+}
+
+header section {
     display: flex;
     justify-content: space-between;
     background-color: #f8f9fa;
 }
 
-header p {
-    font-size: 1.2em;
-    font-weight: 400;
+header section div {
+    text-align: center;
 }
+
+header section div h1 {
+    font-size: 3.5em;
+    font-weight: 200;
+}
+
+header section div p {
+    color: #999999;
+}
+
+header section img {
+    width: 25%;
+    height: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 header nav ul {
+    display: flex;
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-
-
-main {
-    display: flex;
+    gap: 20px;
+    color: #94aec7;
 }
 
 .section1 {
-    background-color: #f8f9fa;
-} 
+    text-align: center;
+}
+
+footer {
+    background-color: #4a4a4b;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
