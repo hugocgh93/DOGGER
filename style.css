@@ -1,61 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0 20px 0; /* lire comme le cadrant d'une montre */
+}
+
+.logo {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.logo span {
+    color: orange;
+}
+
+#menu nav ul {
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    list-style: none;
+}
+
+#menu nav ul li a {
+    color: #999999;
+    text-decoration: none;
 }
 
 header {
     background-color: #f8f9fa;
-
-}
-
-.dogger {
-    font-size: 2em;
 }
 
 header section {
     display: flex;
     justify-content: space-between;
-    background-color: #f8f9fa;
-}
-
-header section div {
-    text-align: center;
-}
-
-header section div h1 {
-    font-size: 3.5em;
-    font-weight: 200;
-}
-
-header section div p {
-    color: #999999;
+    width: 60%;
+    margin: auto;
+    align-items: center; /* permet de centrer une image ou du texte de manière verticale */
 }
 
 header section img {
-    width: 25%;
+    width: 35%;
     height: auto;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
+.headerTitle h1 {
+    font-size: 3em;
+    margin: 0; /* supprime les marges autos sur la balise heading */
+    font-weight: lighter;
 }
 
-
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    color: #94aec7;
+.headerTitle p {
+    font-size: 1.3em;
+    margin: 0;
+    font-weight: lighter;
+    color: #999999;
 }
 
-.section1 {
-    text-align: center;
-}
-
-footer {
-    background-color: #4a4a4b;
-    text-align: center;
-    color: white;
-    height: 150px;
-}
