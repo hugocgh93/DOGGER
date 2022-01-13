@@ -77,23 +77,35 @@ main {
     width: 60%;
     margin: auto;
     justify-content: space-between;
+    align-items: center;
 }
 
 .section1 {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .section1 h2 {
-    font-size: 2.2em;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.section2 {
+.card1 {
     display: flex;
     text-align: right;
+    gap: 100px;
+    padding: 40px;
 }
 
-.section2 h3 {
+.card1 a {
+    background-color: #a2c0be;
+    color: white;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+}
+
+.card1 h3 {
     font-size: 1.5em;
     font-weight: normal;
 }
@@ -101,15 +113,27 @@ main {
 .dog2 {
     width: 45%;
     height: auto;
+    box-shadow: 10px 10px 0 #a2c0be;
 }
 
-.section3 {
+.card2 {
     display: flex;
-    text-align: right;
+    text-align: left;
     padding-top: 20px;
+    gap: 100px;
+    padding: 40px;
 }
 
-.section3 h3 {
+.card2 a {
+    background-color: #a2c0be;
+    color: white;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+}
+
+
+.card2 h3 {
     font-size: 1.5em;
     font-weight: normal;
 }
@@ -117,15 +141,26 @@ main {
 .dog3 {
     width: 45%;
     height: auto;
+    box-shadow: 10px 10px 0 #a2c0be;
 }
 
-.section4 {
+.card3 {
     display: flex;
     text-align: right;
-    padding-top: 20px;
+    padding: 40px;
+    gap: 100px;
 }
 
-.section4 h3 {
+.card3 a {
+    background-color: #a2c0be;
+    color: white;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+}
+
+
+.card3 h3 {
     font-size: 1.5em;
     font-weight: normal;
 }
@@ -133,12 +168,13 @@ main {
 .dog4 {
     width: 45%;
     height: auto;
+    box-shadow: 10px 10px 0 #a2c0be;
 }
 
 footer {
     background-color: #4a4a4b;
     text-align: center;
     color: white;
-    height: 100px;
-    align-items:center;
-}
+    font-size: 0.8em;
+    padding: 25px 0;
+}   
