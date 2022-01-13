@@ -28,9 +28,10 @@ body {
 #menu nav ul {
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap:20px;
     list-style: none;
 }
+
 
 #menu nav ul li a {
     color: #999999;
@@ -67,3 +68,77 @@ header section img {
     color: #999999;
 }
 
+
+body p {
+    color: #999999;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.section1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.section1 h2 {
+    font-size: 2.2em;
+}
+
+.section2 {
+    display: flex;
+    text-align: right;
+}
+
+.section2 h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.dog2 {
+    width: 45%;
+    height: auto;
+}
+
+.section3 {
+    display: flex;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.section3 h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.dog3 {
+    width: 45%;
+    height: auto;
+}
+
+.section4 {
+    display: flex;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.section4 h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.dog4 {
+    width: 45%;
+    height: auto;
+}
+
+footer {
+    background-color: #4a4a4b;
+    text-align: center;
+    color: white;
+    height: 100px;
+    align-items:center;
+}
