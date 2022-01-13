@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 
+:root {
+    --white: white;
+    --orange: orange;
+    --black: black;
+    --grey: #999999;
+    --greydark: #4a4a4b;
+    --greylight: #f8f9fa;
+    --green: #a2c0be;
+
+
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -18,11 +30,11 @@ body {
 .logo {
     font-size: 2em;
     text-decoration: none;
-    color: black;
+    color: var(--black)
 }
 
 .logo span {
-    color: orange;
+    color: var(--orange);
 }
 
 #menu nav ul {
@@ -34,12 +46,17 @@ body {
 
 
 #menu nav ul li a {
-    color: #999999;
+    color: var(--grey);
     text-decoration: none;
 }
 
+#menu nav ul li a:hover {
+    color: var(--greydark);
+    transition-duration: 350ms;
+}
+
 header {
-    background-color: #f8f9fa;
+    background-color: var(--greylight);
 }
 
 header section {
@@ -65,12 +82,12 @@ header section img {
     font-size: 1.3em;
     margin: 0;
     font-weight: lighter;
-    color: #999999;
+    color: var(--grey);
 }
 
 
 body p {
-    color: #999999;
+    color: var(--grey);
 }
 
 main {
@@ -98,11 +115,16 @@ main {
 }
 
 .card1 a {
-    background-color: #a2c0be;
-    color: white;
+    background-color: var(--green);
+    color: var(--white);
     text-decoration: none;
     padding: 12px 32px;
     border-radius: 50px;
+}
+
+.card1 a:hover {
+    background-color: var(--black);
+    transition-duration: 350ms;
 }
 
 .card1 h3 {
@@ -113,7 +135,7 @@ main {
 .dog2 {
     width: 45%;
     height: auto;
-    box-shadow: 10px 10px 0 #a2c0be;
+    box-shadow: 10px 10px 0 var(--green);
 }
 
 .card2 {
@@ -125,12 +147,18 @@ main {
 }
 
 .card2 a {
-    background-color: #a2c0be;
-    color: white;
+    background-color: var(--green);
+    color: var(--white);
     text-decoration: none;
     padding: 12px 32px;
     border-radius: 50px;
 }
+
+.card2 a:hover {
+    background-color: black;
+    transition-duration: 350ms;
+}
+
 
 
 .card2 h3 {
@@ -141,7 +169,7 @@ main {
 .dog3 {
     width: 45%;
     height: auto;
-    box-shadow: 10px 10px 0 #a2c0be;
+    box-shadow: 10px 10px 0 var(--green);
 }
 
 .card3 {
@@ -152,11 +180,16 @@ main {
 }
 
 .card3 a {
-    background-color: #a2c0be;
-    color: white;
+    background-color: var(--green);
+    color: var(--white);
     text-decoration: none;
     padding: 12px 32px;
     border-radius: 50px;
+}
+
+.card3 a:hover {
+    background-color: var(--black);
+     transition-duration: 350ms;
 }
 
 
@@ -168,13 +201,13 @@ main {
 .dog4 {
     width: 45%;
     height: auto;
-    box-shadow: 10px 10px 0 #a2c0be;
+    box-shadow: 10px 10px 0 var(--green);
 }
 
 footer {
-    background-color: #4a4a4b;
+    background-color: var(--greydark);
     text-align: center;
-    color: white;
+    color: var(--white);
     font-size: 0.8em;
     padding: 25px 0;
 }   
